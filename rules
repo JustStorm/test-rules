@@ -1,15 +1,6 @@
 [
   {
     "port": "",
-    "outboundTag": "direct",
-    "ip": [],
-    "domain": [],
-    "protocol": [
-      "bittorrent"
-    ]
-  },
-  {
-    "port": "",
     "outboundTag": "proxy",
     "ip": [
       "1.0.0.1",
