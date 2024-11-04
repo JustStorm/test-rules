@@ -1,0 +1,114 @@
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "1.0.0.1",
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "domain": []
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "discord-attachments-uploads-prd.storage.googleapis.com",
+      "domain:dis.gd",
+      "domain:discord.co",
+      "domain:discord.com",
+      "domain:discord.media",
+      "domain:discord.design",
+      "domain:discord.dev",
+      "domain:discord.gg",
+      "domain:discord.gift",
+      "domain:discord.gifts",
+      "domain:discord.new",
+      "domain:discord.store",
+      "domain:discord.tools",
+      "domain:discordapp.com",
+      "domain:discordapp.net",
+      "domain:discordmerch.com",
+      "domain:discordpartygames.com",
+      "domain:discord-activities.com",
+      "domain:discordactivities.com",
+      "domain:discordsays.com",
+      "domain:discordstatus.com",
+      "domain:discordcdn.com",
+      "domain:dealer.spotify.com"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:youtube.com",
+      "domain:googlevideo.com",
+      "domain:nhacmp3youtube.com",
+      "domain:1e100.net",
+      "domain:ytimg.com",
+      "domain:youtu.be",
+      "domain:gvt1.com",
+      "domain:googleusercontent.com",
+      "domain:googleapis.com",
+      "domain:gstatic.co"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:login5.spotify.com",
+      "domain:.spotify.com",
+      "domain:spclient.wg.spotify.com",
+      "domain:open.spotify.com",
+      "domain:api-partner.spotify.com",
+      "domain:partners.wg.spotify.com",
+      "domain:api.spotify.com",
+      "domain:audio4-fa.scdn.co",
+      "domain:seektables.scdn.co"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:chatgpt.com",
+      "domain:chat.openai.com"
+    ]
+  },
+  {
+    "port": "50000-50099",
+    "network": "udp",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": []
+  },
+  {
+    "port": "",
+    "network": "udp",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": []
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": []
+  }
+]
