@@ -12,6 +12,14 @@
     "port": "",
     "outboundTag": "proxy",
     "ip": [
+      "192.168.1.1/16"
+    ],
+    "domain": []
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
       "1.0.0.1",
       "1.1.1.1",
       "8.8.8.8",
@@ -89,6 +97,31 @@
     "domain": [
       "domain:chatgpt.com",
       "domain:chat.openai.com"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:files.fm"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "ai-chat.bsg.brave.com"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:soundcloud.com",
+      "domain:sndcdn.com"
     ]
   },
   {
