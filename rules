@@ -10,7 +10,7 @@
   },
   {
     "port": "",
-    "outboundTag": "proxy",
+    "outboundTag": "direct",
     "ip": [
       "192.168.1.1/16"
     ],
@@ -71,7 +71,10 @@
       "domain:gvt1.com",
       "domain:googleusercontent.com",
       "domain:googleapis.com",
-      "domain:gstatic.co"
+      "domain:gstatic.co",
+      "play.google.com",
+      "domain:ggpht.com",
+      "domain:doubleclick.net"
     ]
   },
   {
@@ -79,15 +82,10 @@
     "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "domain:login5.spotify.com",
-      "domain:.spotify.com",
-      "domain:spclient.wg.spotify.com",
-      "domain:open.spotify.com",
-      "domain:api-partner.spotify.com",
-      "domain:partners.wg.spotify.com",
-      "domain:api.spotify.com",
-      "domain:audio4-fa.scdn.co",
-      "domain:seektables.scdn.co"
+      "domain:spotify.com",
+      "domain:scdn.co",
+      "domain:soundcloud.com",
+      "domain:sndcdn.com"
     ]
   },
   {
@@ -96,7 +94,7 @@
     "ip": [],
     "domain": [
       "domain:chatgpt.com",
-      "domain:chat.openai.com"
+      "domain:openai.com"
     ]
   },
   {
@@ -120,8 +118,18 @@
     "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "domain:soundcloud.com",
-      "domain:sndcdn.com"
+      "domain:patreon.com"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:jut.su",
+      "domain:amedia.site",
+      "domain:yummyanime.tv",
+      "animego.org"
     ]
   },
   {
@@ -134,7 +142,7 @@
   {
     "port": "",
     "network": "udp",
-    "outboundTag": "proxy",
+    "outboundTag": "direct",
     "ip": [],
     "domain": []
   },
